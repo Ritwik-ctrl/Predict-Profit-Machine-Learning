@@ -1,4 +1,4 @@
-# Predict-Profit-Machine-Learning
+# Predict Best Machine Learning Model on a Startup Dataset
 Predict startup profit using "R&amp;D Spend" and "Marketing Spend" from "50_Startups.csv" dataset (downloaded from Kaggle) using three different manually implemented machine learning models.
 Firstly, it loads dataset and removes missing values while selecting only numerical columns for modeling (R&D Spend, Marketing Spend, Profit) and applies manual feature scaling (standardization).
 It then randomly splits the data into 80% training and 20% testing using NumPy.
